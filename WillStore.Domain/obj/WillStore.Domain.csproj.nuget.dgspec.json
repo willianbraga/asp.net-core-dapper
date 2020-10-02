@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\Developer\\Projects\\Study\\Asp.net core e dapper\\WillStore\\WillStore.Domain\\WillStore.Domain.csproj": {}
+    "D:\\Developer\\Projects\\Study\\Asp.net core e dapper\\WillStore\\WillStore.Domain\\WillStore.Domain.csproj": {}
   },
   "projects": {
-    "d:\\Developer\\Projects\\Study\\Asp.net core e dapper\\WillStore\\WillStore.Domain\\WillStore.Domain.csproj": {
+    "D:\\Developer\\Projects\\Study\\Asp.net core e dapper\\WillStore\\WillStore.Domain\\WillStore.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Developer\\Projects\\Study\\Asp.net core e dapper\\WillStore\\WillStore.Domain\\WillStore.Domain.csproj",
+        "projectUniqueName": "D:\\Developer\\Projects\\Study\\Asp.net core e dapper\\WillStore\\WillStore.Domain\\WillStore.Domain.csproj",
         "projectName": "WillStore.Domain",
-        "projectPath": "d:\\Developer\\Projects\\Study\\Asp.net core e dapper\\WillStore\\WillStore.Domain\\WillStore.Domain.csproj",
+        "projectPath": "D:\\Developer\\Projects\\Study\\Asp.net core e dapper\\WillStore\\WillStore.Domain\\WillStore.Domain.csproj",
         "packagesPath": "C:\\Users\\Lolla\\.nuget\\packages\\",
-        "outputPath": "d:\\Developer\\Projects\\Study\\Asp.net core e dapper\\WillStore\\WillStore.Domain\\obj\\",
+        "outputPath": "D:\\Developer\\Projects\\Study\\Asp.net core e dapper\\WillStore\\WillStore.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Lolla\\AppData\\Roaming\\NuGet\\NuGet.Config"

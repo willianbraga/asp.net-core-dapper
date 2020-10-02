@@ -8,7 +8,7 @@ namespace WillStore.Domain.StoreContext.ValueObjects
         public string Number { get; private set; }
         public Document(string number)
         {
-            Number = number;
+            this.Number = number;
 
             AddNotifications(new ValidationContract()
                 .IsTrue(Validate(Number), "Document", "CPF invalido")
