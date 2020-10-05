@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\Developer\\Projects\\Study\\Asp.net core e dapper\\WillStore\\WillStore.Infra\\WillStore.Infra.csproj": {}
+    "D:\\Developer\\Projects\\Study\\Asp.net core e dapper\\WillStore\\WillStore.Infra\\WillStore.Infra.csproj": {}
   },
   "projects": {
-    "d:\\Developer\\Projects\\Study\\Asp.net core e dapper\\WillStore\\WillStore.Infra\\WillStore.Infra.csproj": {
+    "D:\\Developer\\Projects\\Study\\Asp.net core e dapper\\WillStore\\WillStore.Infra\\WillStore.Infra.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Developer\\Projects\\Study\\Asp.net core e dapper\\WillStore\\WillStore.Infra\\WillStore.Infra.csproj",
+        "projectUniqueName": "D:\\Developer\\Projects\\Study\\Asp.net core e dapper\\WillStore\\WillStore.Infra\\WillStore.Infra.csproj",
         "projectName": "WillStore.Infra",
-        "projectPath": "d:\\Developer\\Projects\\Study\\Asp.net core e dapper\\WillStore\\WillStore.Infra\\WillStore.Infra.csproj",
+        "projectPath": "D:\\Developer\\Projects\\Study\\Asp.net core e dapper\\WillStore\\WillStore.Infra\\WillStore.Infra.csproj",
         "packagesPath": "C:\\Users\\Lolla\\.nuget\\packages\\",
-        "outputPath": "d:\\Developer\\Projects\\Study\\Asp.net core e dapper\\WillStore\\WillStore.Infra\\obj\\",
+        "outputPath": "D:\\Developer\\Projects\\Study\\Asp.net core e dapper\\WillStore\\WillStore.Infra\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Lolla\\AppData\\Roaming\\NuGet\\NuGet.Config"

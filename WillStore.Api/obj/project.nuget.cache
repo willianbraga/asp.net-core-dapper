@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rhZagI+k73KCDM6fKRD/bkiGXxOGeQsqCcBWFS66kB8IE6voguNCm1wZgGpVnkqtjrW61g48iovBMxpcf2z7nA==",
+  "dgSpecHash": "A7wxge+dP/xhXu88CrY16pnjZK7NEmR0yOHFKvRSBnXm3+LGiwEynq01+dHhhDQs44dNp/7pkRBCnmMYqwAbrw==",
   "success": true,
-  "projectFilePath": "d:\\Developer\\Projects\\Study\\Asp.net core e dapper\\WillStore\\WillStore.Api\\WillStore.Api.csproj",
+  "projectFilePath": "D:\\Developer\\Projects\\Study\\Asp.net core e dapper\\WillStore\\WillStore.Api\\WillStore.Api.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

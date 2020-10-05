@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AHYHMWihrt4stNbgrVWKF8Tx3bNNiJ8lkG74wNAousCiPuQbZr1byv4XA4joOvM6kx8lSp59DaZ+LiC7rXGdvQ==",
+  "dgSpecHash": "Da6q3vGTt556jfL2TN1xNsQX38rlk3C064nVtYocGFCZRmEgbz45mZPRZnCctxTLXcVbzUEa6xuS+LkP06rYWQ==",
   "success": true,
-  "projectFilePath": "d:\\Developer\\Projects\\Study\\Asp.net core e dapper\\WillStore\\WillStore.Shared\\WillStore.Shared.csproj",
+  "projectFilePath": "D:\\Developer\\Projects\\Study\\Asp.net core e dapper\\WillStore\\WillStore.Shared\\WillStore.Shared.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Lolla\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\Lolla\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"

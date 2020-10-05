@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\Developer\\Projects\\Study\\Asp.net core e dapper\\WillStore\\WillStore.Api\\WillStore.Api.csproj": {}
+    "D:\\Developer\\Projects\\Study\\Asp.net core e dapper\\WillStore\\WillStore.Api\\WillStore.Api.csproj": {}
   },
   "projects": {
-    "d:\\Developer\\Projects\\Study\\Asp.net core e dapper\\WillStore\\WillStore.Api\\WillStore.Api.csproj": {
+    "D:\\Developer\\Projects\\Study\\Asp.net core e dapper\\WillStore\\WillStore.Api\\WillStore.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Developer\\Projects\\Study\\Asp.net core e dapper\\WillStore\\WillStore.Api\\WillStore.Api.csproj",
+        "projectUniqueName": "D:\\Developer\\Projects\\Study\\Asp.net core e dapper\\WillStore\\WillStore.Api\\WillStore.Api.csproj",
         "projectName": "WillStore.Api",
-        "projectPath": "d:\\Developer\\Projects\\Study\\Asp.net core e dapper\\WillStore\\WillStore.Api\\WillStore.Api.csproj",
+        "projectPath": "D:\\Developer\\Projects\\Study\\Asp.net core e dapper\\WillStore\\WillStore.Api\\WillStore.Api.csproj",
         "packagesPath": "C:\\Users\\Lolla\\.nuget\\packages\\",
-        "outputPath": "d:\\Developer\\Projects\\Study\\Asp.net core e dapper\\WillStore\\WillStore.Api\\obj\\",
+        "outputPath": "D:\\Developer\\Projects\\Study\\Asp.net core e dapper\\WillStore\\WillStore.Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Lolla\\AppData\\Roaming\\NuGet\\NuGet.Config"

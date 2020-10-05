@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\Developer\\Projects\\Study\\Asp.net core e dapper\\WillStore\\WillStore.Shared\\WillStore.Shared.csproj": {}
+    "D:\\Developer\\Projects\\Study\\Asp.net core e dapper\\WillStore\\WillStore.Shared\\WillStore.Shared.csproj": {}
   },
   "projects": {
-    "d:\\Developer\\Projects\\Study\\Asp.net core e dapper\\WillStore\\WillStore.Shared\\WillStore.Shared.csproj": {
+    "D:\\Developer\\Projects\\Study\\Asp.net core e dapper\\WillStore\\WillStore.Shared\\WillStore.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Developer\\Projects\\Study\\Asp.net core e dapper\\WillStore\\WillStore.Shared\\WillStore.Shared.csproj",
+        "projectUniqueName": "D:\\Developer\\Projects\\Study\\Asp.net core e dapper\\WillStore\\WillStore.Shared\\WillStore.Shared.csproj",
         "projectName": "WillStore.Shared",
-        "projectPath": "d:\\Developer\\Projects\\Study\\Asp.net core e dapper\\WillStore\\WillStore.Shared\\WillStore.Shared.csproj",
+        "projectPath": "D:\\Developer\\Projects\\Study\\Asp.net core e dapper\\WillStore\\WillStore.Shared\\WillStore.Shared.csproj",
         "packagesPath": "C:\\Users\\Lolla\\.nuget\\packages\\",
-        "outputPath": "d:\\Developer\\Projects\\Study\\Asp.net core e dapper\\WillStore\\WillStore.Shared\\obj\\",
+        "outputPath": "D:\\Developer\\Projects\\Study\\Asp.net core e dapper\\WillStore\\WillStore.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Lolla\\AppData\\Roaming\\NuGet\\NuGet.Config"
