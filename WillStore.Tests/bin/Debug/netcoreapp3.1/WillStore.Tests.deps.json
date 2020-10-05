@@ -1084,10 +1084,16 @@
       },
       "WillStore.Domain/1.0.0": {
         "dependencies": {
-          "FluentValidator": "2.0.4"
+          "FluentValidator": "2.0.4",
+          "WillStore.Shared": "1.0.0"
         },
         "runtime": {
           "WillStore.Domain.dll": {}
+        }
+      },
+      "WillStore.Shared/1.0.0": {
+        "runtime": {
+          "WillStore.Shared.dll": {}
         }
       }
     }
@@ -1715,6 +1721,11 @@
       "hashPath": "system.xml.xdocument.4.3.0.nupkg.sha512"
     },
     "WillStore.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "WillStore.Shared/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -37,6 +37,16 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "WillStore.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/WillStore.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WillStore.Shared.dll": {}
+        }
       }
     }
   },
@@ -196,12 +206,18 @@
         "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
+    },
+    "WillStore.Shared/1.0.0": {
+      "type": "project",
+      "path": "../WillStore.Shared/WillStore.Shared.csproj",
+      "msbuildProject": "../WillStore.Shared/WillStore.Shared.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
       "FluentValidator >= 2.0.4",
-      "NETStandard.Library >= 2.0.3"
+      "NETStandard.Library >= 2.0.3",
+      "WillStore.Shared >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -227,7 +243,11 @@
       },
       "frameworks": {
         "netstandard2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "d:\\Developer\\Projects\\Study\\Asp.net core e dapper\\WillStore\\WillStore.Shared\\WillStore.Shared.csproj": {
+              "projectPath": "d:\\Developer\\Projects\\Study\\Asp.net core e dapper\\WillStore\\WillStore.Shared\\WillStore.Shared.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

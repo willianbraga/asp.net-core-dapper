@@ -1651,13 +1651,24 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "FluentValidator": "2.0.4"
+          "FluentValidator": "2.0.4",
+          "WillStore.Shared": "1.0.0"
         },
         "compile": {
           "bin/placeholder/WillStore.Domain.dll": {}
         },
         "runtime": {
           "bin/placeholder/WillStore.Domain.dll": {}
+        }
+      },
+      "WillStore.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/WillStore.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WillStore.Shared.dll": {}
         }
       }
     }
@@ -5747,6 +5758,11 @@
       "type": "project",
       "path": "../WillStore.Domain/WillStore.Domain.csproj",
       "msbuildProject": "../WillStore.Domain/WillStore.Domain.csproj"
+    },
+    "WillStore.Shared/1.0.0": {
+      "type": "project",
+      "path": "../WillStore.Shared/WillStore.Shared.csproj",
+      "msbuildProject": "../WillStore.Shared/WillStore.Shared.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -5764,11 +5780,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Developer\\Projects\\Study\\Asp.net core e dapper\\WillStore\\WillStore.Tests\\WillStore.Tests.csproj",
+      "projectUniqueName": "d:\\Developer\\Projects\\Study\\Asp.net core e dapper\\WillStore\\WillStore.Tests\\WillStore.Tests.csproj",
       "projectName": "WillStore.Tests",
-      "projectPath": "D:\\Developer\\Projects\\Study\\Asp.net core e dapper\\WillStore\\WillStore.Tests\\WillStore.Tests.csproj",
+      "projectPath": "d:\\Developer\\Projects\\Study\\Asp.net core e dapper\\WillStore\\WillStore.Tests\\WillStore.Tests.csproj",
       "packagesPath": "C:\\Users\\Lolla\\.nuget\\packages\\",
-      "outputPath": "D:\\Developer\\Projects\\Study\\Asp.net core e dapper\\WillStore\\WillStore.Tests\\obj\\",
+      "outputPath": "d:\\Developer\\Projects\\Study\\Asp.net core e dapper\\WillStore\\WillStore.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Lolla\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -5782,8 +5798,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "D:\\Developer\\Projects\\Study\\Asp.net core e dapper\\WillStore\\WillStore.Domain\\WillStore.Domain.csproj": {
-              "projectPath": "D:\\Developer\\Projects\\Study\\Asp.net core e dapper\\WillStore\\WillStore.Domain\\WillStore.Domain.csproj"
+            "d:\\Developer\\Projects\\Study\\Asp.net core e dapper\\WillStore\\WillStore.Domain\\WillStore.Domain.csproj": {
+              "projectPath": "d:\\Developer\\Projects\\Study\\Asp.net core e dapper\\WillStore\\WillStore.Domain\\WillStore.Domain.csproj"
             }
           }
         }

@@ -95,3 +95,5 @@ d:\Developer\Projects\Study\Asp.net core e dapper\WillStore\WillStore.Tests\obj\
 d:\Developer\Projects\Study\Asp.net core e dapper\WillStore\WillStore.Tests\bin\Debug\netcoreapp3.1\FluentValidator.dll
 d:\Developer\Projects\Study\Asp.net core e dapper\WillStore\WillStore.Tests\bin\Debug\netcoreapp3.1\WillStore.Domain.dll
 d:\Developer\Projects\Study\Asp.net core e dapper\WillStore\WillStore.Tests\bin\Debug\netcoreapp3.1\WillStore.Domain.pdb
+d:\Developer\Projects\Study\Asp.net core e dapper\WillStore\WillStore.Tests\bin\Debug\netcoreapp3.1\WillStore.Shared.dll
+d:\Developer\Projects\Study\Asp.net core e dapper\WillStore\WillStore.Tests\bin\Debug\netcoreapp3.1\WillStore.Shared.pdb

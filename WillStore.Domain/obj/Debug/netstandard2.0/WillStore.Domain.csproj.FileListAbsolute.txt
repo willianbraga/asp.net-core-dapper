@@ -7,3 +7,6 @@ D:\Developer\Projects\Study\Asp.net core e dapper\WillStore\WillStore.Domain\bin
 D:\Developer\Projects\Study\Asp.net core e dapper\WillStore\WillStore.Domain\bin\Debug\netstandard2.0\WillStore.Domain.pdb
 D:\Developer\Projects\Study\Asp.net core e dapper\WillStore\WillStore.Domain\obj\Debug\netstandard2.0\WillStore.Domain.dll
 D:\Developer\Projects\Study\Asp.net core e dapper\WillStore\WillStore.Domain\obj\Debug\netstandard2.0\WillStore.Domain.pdb
+d:\Developer\Projects\Study\Asp.net core e dapper\WillStore\WillStore.Domain\bin\Debug\netstandard2.0\WillStore.Shared.dll
+d:\Developer\Projects\Study\Asp.net core e dapper\WillStore\WillStore.Domain\bin\Debug\netstandard2.0\WillStore.Shared.pdb
+d:\Developer\Projects\Study\Asp.net core e dapper\WillStore\WillStore.Domain\obj\Debug\netstandard2.0\WillStore.Domain.csproj.CopyComplete
