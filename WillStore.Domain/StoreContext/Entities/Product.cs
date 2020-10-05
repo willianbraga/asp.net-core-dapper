@@ -22,6 +22,10 @@ namespace WillStore.Domain.StoreContext.Entities
         {
             return this.Title;
         }
+        public void RemoveQuantity(decimal quantity)
+        {
+            this.QuantityOnHand -= quantity;
+        }
 
     }
 }

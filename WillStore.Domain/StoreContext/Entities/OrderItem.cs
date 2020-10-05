@@ -19,6 +19,8 @@ namespace WillStore.Domain.StoreContext.Entities
 
             if (product.QuantityOnHand < quantity)
                 AddNotification("Quantidade", "Produto fora de estoque");
+
+            product.RemoveQuantity(quantity);
         }
     }
 }
