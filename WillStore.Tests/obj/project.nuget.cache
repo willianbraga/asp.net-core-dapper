@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "a0wObuQK7mLnula5vk5KxoCRqi/LYrzSnUOE1TjLhaR3ihd7PohT68B1A9OOYw+cmaNAS0TpGUfS7tZOAGUJkw==",
+  "dgSpecHash": "scbc26jZxmJV5c07r3+P2PtU5hyNid0rAV2VI0xtVlHLQz2W/me3E7dWKnPHwQ+vKbobodZz90/L87obnzqg+A==",
   "success": true,
-  "projectFilePath": "d:\\Developer\\Projects\\Study\\Asp.net core e dapper\\WillStore\\WillStore.Tests\\WillStore.Tests.csproj",
+  "projectFilePath": "D:\\Developer\\Projects\\Study\\Asp.net core e dapper\\WillStore\\WillStore.Tests\\WillStore.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Lolla\\.nuget\\packages\\coverlet.collector\\1.2.0\\coverlet.collector.1.2.0.nupkg.sha512",
     "C:\\Users\\Lolla\\.nuget\\packages\\fluentvalidator\\2.0.4\\fluentvalidator.2.0.4.nupkg.sha512",
