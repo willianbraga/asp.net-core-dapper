@@ -19,7 +19,7 @@ namespace WillStore.Domain.StoreContext.Commands.CustomerCommands.Inputs
         public string ZipCode { get; set; }
         public EAddressType Type { get; set; }
 
-        public bool Valid()
+        public bool IsValid()
         {
             AddNotifications(
                 new ValidationContract()

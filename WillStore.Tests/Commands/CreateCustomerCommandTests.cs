@@ -16,7 +16,7 @@ namespace WillStore.Tests.Commands
             command.Email = "Willian.kaeru@gmail.com";
             command.Phone = "11979942801";
 
-            Assert.AreEqual(true, command.Valid());
+            Assert.AreEqual(true, command.IsValid());
         }
     }
 }

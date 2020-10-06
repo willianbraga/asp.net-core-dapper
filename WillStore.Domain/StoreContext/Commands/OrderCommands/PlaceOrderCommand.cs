@@ -14,7 +14,7 @@ namespace WillStore.Domain.StoreContext.Commands.OrderCommands
         {
             OrderItems = new List<OrderItemCommand>();
         }
-        public bool Valid()
+        public bool IsValid()
         {
             AddNotifications(
                 new ValidationContract()

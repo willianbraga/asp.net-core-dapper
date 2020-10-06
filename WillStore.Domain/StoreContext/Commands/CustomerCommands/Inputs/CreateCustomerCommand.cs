@@ -15,7 +15,7 @@ namespace WillStore.Domain.StoreContext.Commands.CustomerCommands.Inputs
         {
 
         }
-        public bool Valid()
+        public bool IsValid()
         {
             AddNotifications(
                 new ValidationContract()
