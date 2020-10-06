@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DW8f3GLZssXnw9ovKzvAKPYnaJBlAVAV2edmOF73GRgCGNOpGtEvc+wMOh6PB92wQEblHLUh7ZeyNjMvK6CGJQ==",
+  "dgSpecHash": "MlZWQy93LjkEYeDb4AP/Z+bcxJ3HiD3sN1fGsDboKL85WYhOoI9oTuEOeu0lcT4Sy3MudkLSWL4mTXPjsBfwfA==",
   "success": true,
-  "projectFilePath": "d:\\Developer\\Projects\\Study\\Asp.net core e dapper\\WillStore\\WillStore.Domain\\WillStore.Domain.csproj",
+  "projectFilePath": "D:\\Developer\\Projects\\Study\\Asp.net core e dapper\\WillStore\\WillStore.Domain\\WillStore.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Lolla\\.nuget\\packages\\fluentvalidator\\2.0.4\\fluentvalidator.2.0.4.nupkg.sha512",
     "C:\\Users\\Lolla\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
