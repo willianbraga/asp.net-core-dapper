@@ -2,10 +2,11 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using FluentValidator;
+using WillStore.Shared.Entities;
 
 namespace WillStore.Domain.StoreContext.Entities
 {
-    public class OrderItem : Notifiable
+    public class OrderItem : Entity
     {
         public Product Product { get; private set; }
         public decimal Quantity { get; private set; }

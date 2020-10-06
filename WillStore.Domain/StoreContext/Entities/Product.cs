@@ -1,8 +1,9 @@
 using FluentValidator;
+using WillStore.Shared.Entities;
 
 namespace WillStore.Domain.StoreContext.Entities
 {
-    public class Product : Notifiable
+    public class Product : Entity
     {
         public string Title { get; private set; }
         public string Description { get; private set; }

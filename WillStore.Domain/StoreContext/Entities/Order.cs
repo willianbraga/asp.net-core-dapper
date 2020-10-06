@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using FluentValidator;
 using WillStore.Domain.StoreContext.Enums;
+using WillStore.Shared.Entities;
 
 namespace WillStore.Domain.StoreContext.Entities
 {
-    public class Order : Notifiable
+    public class Order : Entity
     {
         private readonly IList<OrderItem> _items;
         private readonly IList<Delivery> _deliveries;

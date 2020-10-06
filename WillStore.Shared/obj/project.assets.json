@@ -2,6 +2,18 @@
   "version": 3,
   "targets": {
     ".NETStandard,Version=v2.0": {
+      "FluentValidator/2.0.4": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.1"
+        },
+        "compile": {
+          "lib/netstandard1.3/FluentValidator.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.3/FluentValidator.dll": {}
+        }
+      },
       "Microsoft.NETCore.Platforms/1.1.0": {
         "type": "package",
         "compile": {
@@ -29,6 +41,18 @@
     }
   },
   "libraries": {
+    "FluentValidator/2.0.4": {
+      "sha512": "px1HWHYBD20PuCUgz/mEl/QcBsikW5nbdtR5whllwMIyJ4FJs03nGXe5ocHEre/x3CX72hJBnX7bteqkZwlcfA==",
+      "type": "package",
+      "path": "fluentvalidator/2.0.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "fluentvalidator.2.0.4.nupkg.sha512",
+        "fluentvalidator.nuspec",
+        "lib/netstandard1.3/FluentValidator.dll"
+      ]
+    },
     "Microsoft.NETCore.Platforms/1.1.0": {
       "sha512": "kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
       "type": "package",
@@ -176,6 +200,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
+      "FluentValidator >= *",
       "NETStandard.Library >= 2.0.3"
     ]
   },
@@ -185,11 +210,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "d:\\Developer\\Projects\\Study\\Asp.net core e dapper\\WillStore\\WillStore.Shared\\WillStore.Shared.csproj",
+      "projectUniqueName": "D:\\Developer\\Projects\\Study\\Asp.net core e dapper\\WillStore\\WillStore.Shared\\WillStore.Shared.csproj",
       "projectName": "WillStore.Shared",
-      "projectPath": "d:\\Developer\\Projects\\Study\\Asp.net core e dapper\\WillStore\\WillStore.Shared\\WillStore.Shared.csproj",
+      "projectPath": "D:\\Developer\\Projects\\Study\\Asp.net core e dapper\\WillStore\\WillStore.Shared\\WillStore.Shared.csproj",
       "packagesPath": "C:\\Users\\Lolla\\.nuget\\packages\\",
-      "outputPath": "d:\\Developer\\Projects\\Study\\Asp.net core e dapper\\WillStore\\WillStore.Shared\\obj\\",
+      "outputPath": "D:\\Developer\\Projects\\Study\\Asp.net core e dapper\\WillStore\\WillStore.Shared\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Lolla\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -214,6 +239,10 @@
     "frameworks": {
       "netstandard2.0": {
         "dependencies": {
+          "FluentValidator": {
+            "target": "Package",
+            "version": "[*, )"
+          },
           "NETStandard.Library": {
             "suppressParent": "All",
             "target": "Package",

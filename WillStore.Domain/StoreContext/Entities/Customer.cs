@@ -2,10 +2,11 @@ using System.Collections.Generic;
 using System.Linq;
 using FluentValidator;
 using WillStore.Domain.StoreContext.ValueObjects;
+using WillStore.Shared.Entities;
 
 namespace WillStore.Domain.StoreContext.Entities
 {
-    public class Customer: Notifiable
+    public class Customer: Entity
     {
         private readonly IList<Address> _addresses;
 

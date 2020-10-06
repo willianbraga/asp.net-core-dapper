@@ -1,9 +1,10 @@
 using FluentValidator;
 using WillStore.Domain.StoreContext.Enums;
+using WillStore.Shared.Entities;
 
 namespace WillStore.Domain.StoreContext.Entities
 {
-    public class Address: Notifiable
+    public class Address: Entity
     {
         public string Street { get; private set; }
         public string Number { get; private set; }

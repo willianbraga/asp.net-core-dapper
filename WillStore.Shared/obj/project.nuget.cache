@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "AHYHMWihrt4stNbgrVWKF8Tx3bNNiJ8lkG74wNAousCiPuQbZr1byv4XA4joOvM6kx8lSp59DaZ+LiC7rXGdvQ==",
+  "dgSpecHash": "h5sr/rKIK+toE6w/470thNqcamrQD6cE7G3Ua1bZ2XR0doo8Y/r8uoSWM66minEynd0KAEt3tS5xfXcJodUPkg==",
   "success": true,
-  "projectFilePath": "d:\\Developer\\Projects\\Study\\Asp.net core e dapper\\WillStore\\WillStore.Shared\\WillStore.Shared.csproj",
+  "projectFilePath": "D:\\Developer\\Projects\\Study\\Asp.net core e dapper\\WillStore\\WillStore.Shared\\WillStore.Shared.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Lolla\\.nuget\\packages\\fluentvalidator\\2.0.4\\fluentvalidator.2.0.4.nupkg.sha512",
     "C:\\Users\\Lolla\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\Lolla\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
   ],

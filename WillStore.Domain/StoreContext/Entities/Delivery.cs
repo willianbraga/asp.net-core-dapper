@@ -1,10 +1,11 @@
 using System;
 using FluentValidator;
 using WillStore.Domain.StoreContext.Enums;
+using WillStore.Shared.Entities;
 
 namespace WillStore.Domain.StoreContext.Entities
 {
-    public class Delivery : Notifiable
+    public class Delivery : Entity
     {
         public DateTime CreateDate { get; private set; }
         public DateTime EstimatedDate { get; private set; }
