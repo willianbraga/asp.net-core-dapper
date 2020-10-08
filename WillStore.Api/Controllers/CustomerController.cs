@@ -11,7 +11,7 @@ using WillStore.Domain.StoreContext.Repositories;
 namespace WillStore.Api.Controllers
 {
     [ApiController]
-    [Route("/api/v1/[controller]")]
+    [Route("/api/[controller]")]
     public class CustomerController : ControllerBase
     {
 
@@ -25,28 +25,28 @@ namespace WillStore.Api.Controllers
         }
 
         [HttpGet]
-        [Route("getall")]
+        [Route("v1/getall")]
         public IEnumerable<ListCustomerQueryResult> GetAll()
         {
             return _customerRepository.GetCustomerList();
         }
 
         [HttpGet]
-        [Route("getbyid/{customerId}")]
+        [Route("v1/getbyid/{customerId}")]
         public GetCustomerQueryResult GetById(Guid customerId)
         {
             return _customerRepository.GetCustomerById(customerId);
         }
 
         [HttpGet]
-        [Route("getbyid/{customerId}/orders")]
+        [Route("v1/getbyid/{customerId}/orders")]
         public IEnumerable<ListCustomerOrderQueryResult> GetCustomerOrders(Guid customerId)
         {
             return _customerRepository.GetCustomerOrder(customerId);
         }
 
         [HttpPost]
-        [Route("")]
+        [Route("v1/")]
         public IActionResult SaveCustomer([FromBody] CreateCustomerCommand command)
         {
             var result = (CreateCustomerCommandResult)_handler.Handle(command);
@@ -55,7 +55,7 @@ namespace WillStore.Api.Controllers
             return Ok(result);
         }
         [HttpPut]
-        [Route("{id}")]
+        [Route("v1/{id}")]
         public IActionResult EditCustomer([FromBody] EditCustomerCommand command)
         {
             var result = (EditCustomerCommand)_handler.Handle(command);
@@ -64,7 +64,7 @@ namespace WillStore.Api.Controllers
             return Ok(result);
         }
         [HttpDelete]
-        [Route("{customerId}")]
+        [Route("v1/{customerId}")]
         public IActionResult DeleteCustomer(DeleteCustomerCommand customerId)
         {
             var result = (DeleteCustomerCommandResult)_handler.Handle(customerId);

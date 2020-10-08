@@ -45,7 +45,7 @@ namespace WillStore.Infra.StoreContext.Repositories
             return _context
                         .Connection
                         .Query<GetCustomerQueryResult>(
-                            "SELECT [Id], CONCAT([FirstName], ' ', [LastName]) AS [Name], [Document], [Email], [Phone] FROM [Customer] WHERE [Id] = @id"
+                            "spGetCustomerById"
                             , new { id = customerId })
                         .FirstOrDefault();
         }
@@ -55,7 +55,7 @@ namespace WillStore.Infra.StoreContext.Repositories
             return _context
                         .Connection
                         .Query<ListCustomerQueryResult>(
-                            "SELECT [Id], CONCAT([FirstName], ' ', [LastName]) AS [Name], [Document], [Email], [Phone] FROM [Customer]");
+                            "spGetAllCustomers");
         }
 
         public IEnumerable<ListCustomerOrderQueryResult> GetCustomerOrder(Guid customerId)
@@ -63,7 +63,7 @@ namespace WillStore.Infra.StoreContext.Repositories
             return _context
                         .Connection
                         .Query<ListCustomerOrderQueryResult>(
-                            "", new { id = customerId });
+                            "spSelectCustomerOrder", new { id = customerId });
         }
 
         public void Save(Customer customer)

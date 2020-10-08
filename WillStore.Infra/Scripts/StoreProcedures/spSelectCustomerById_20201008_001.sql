@@ -1,0 +1,7 @@
+CREATE PROCEDURE spSelectCustomerById
+    @Id UNIQUEIDENTIFIER
+AS
+
+SELECT *
+FROM [Customer]
+WHERE [Id] = @Id
