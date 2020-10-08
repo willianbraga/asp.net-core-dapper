@@ -15,7 +15,6 @@ namespace WillStore.Domain.StoreContext.Entities
         public string Country { get; private set; }
         public string ZipCode { get; private set; }
         public EAddressType Type { get; private set; }
-
         public Address(string street, string number, string complement, string district, string city, string state, string country, string zipCode, EAddressType type)
         {
             Street = street;

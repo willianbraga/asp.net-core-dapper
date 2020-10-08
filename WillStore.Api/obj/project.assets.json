@@ -26,6 +26,18 @@
           "lib/netstandard1.3/FluentValidator.dll": {}
         }
       },
+      "Microsoft.AspNetCore.Mvc.Versioning/4.1.1": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.Mvc.Versioning.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.Mvc.Versioning.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
       "Microsoft.Extensions.ApiDescription.Server/3.0.0": {
         "type": "package",
         "build": {
@@ -257,6 +269,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Dapper": "2.0.35",
+          "Swashbuckle.AspNetCore.SwaggerGen": "5.6.3",
           "System.Data.SqlClient": "4.8.2",
           "WillStore.Domain": "1.0.0",
           "WillStore.Shared": "1.0.0"
@@ -309,6 +322,22 @@
         "fluentvalidator.2.0.4.nupkg.sha512",
         "fluentvalidator.nuspec",
         "lib/netstandard1.3/FluentValidator.dll"
+      ]
+    },
+    "Microsoft.AspNetCore.Mvc.Versioning/4.1.1": {
+      "sha512": "ioFhRz5gm2Ny+t758Jab638eTG8Uui++klcH00EgBuU/BQbjkbFY+9xw/CkoAChIcrJsoQP2NKDYJ09zN5jR0g==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.mvc.versioning/4.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "icon.png",
+        "lib/netcoreapp3.1/Microsoft.AspNetCore.Mvc.Versioning.dll",
+        "lib/netcoreapp3.1/Microsoft.AspNetCore.Mvc.Versioning.pdb",
+        "lib/netcoreapp3.1/Microsoft.AspNetCore.Mvc.Versioning.xml",
+        "microsoft.aspnetcore.mvc.versioning.4.1.1.nupkg.sha512",
+        "microsoft.aspnetcore.mvc.versioning.nuspec"
       ]
     },
     "Microsoft.Extensions.ApiDescription.Server/3.0.0": {
@@ -807,6 +836,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "Microsoft.AspNetCore.Mvc.Versioning >= 4.1.1",
       "Swashbuckle.AspNetCore >= 5.6.3",
       "Swashbuckle.AspNetCore.Swagger >= 5.6.3",
       "WillStore.Domain >= 1.0.0",
@@ -855,6 +885,10 @@
     "frameworks": {
       "netcoreapp3.1": {
         "dependencies": {
+          "Microsoft.AspNetCore.Mvc.Versioning": {
+            "target": "Package",
+            "version": "[4.1.1, )"
+          },
           "Swashbuckle.AspNetCore": {
             "target": "Package",
             "version": "[5.6.3, )"

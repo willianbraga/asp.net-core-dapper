@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "FgL7v8I0dZIThLHzwez93f7GObDjp2eUeNM65YtewwqjxnbcwOfVkzu3onFNNlPCt/TEttla/fpJHitEqU+OHg==",
+  "dgSpecHash": "jYhR0C8hN1AyobyIWVQIjtQ/mS8YG4kjQsOnTDVyDd4SAGFBdzCLHcLVsUwxe0E6EOyh7b2ML2UQrGRLmBNwSw==",
   "success": true,
   "projectFilePath": "D:\\Developer\\Projects\\Study\\Asp.net core e dapper\\WillStore\\WillStore.Api\\WillStore.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Lolla\\.nuget\\packages\\dapper\\2.0.35\\dapper.2.0.35.nupkg.sha512",
     "C:\\Users\\Lolla\\.nuget\\packages\\fluentvalidator\\2.0.4\\fluentvalidator.2.0.4.nupkg.sha512",
+    "C:\\Users\\Lolla\\.nuget\\packages\\microsoft.aspnetcore.mvc.versioning\\4.1.1\\microsoft.aspnetcore.mvc.versioning.4.1.1.nupkg.sha512",
     "C:\\Users\\Lolla\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\Lolla\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\Lolla\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",

@@ -11,7 +11,9 @@ using WillStore.Domain.StoreContext.Repositories;
 namespace WillStore.Api.Controllers
 {
     [ApiController]
-    [Route("/api/[controller]")]
+    [Route("api/v{version:apiVersion}/[controller]")]
+    [ApiVersion("1")]
+    [ApiExplorerSettings(GroupName = "v1")]
     public class CustomerController : ControllerBase
     {
 
@@ -25,28 +27,28 @@ namespace WillStore.Api.Controllers
         }
 
         [HttpGet]
-        [Route("v1/getall")]
+        [Route("getall")]
         public IEnumerable<ListCustomerQueryResult> GetAll()
         {
             return _customerRepository.GetCustomerList();
         }
 
         [HttpGet]
-        [Route("v1/getbyid/{customerId}")]
+        [Route("getbyid/{customerId}")]
         public GetCustomerQueryResult GetById(Guid customerId)
         {
             return _customerRepository.GetCustomerById(customerId);
         }
 
         [HttpGet]
-        [Route("v1/getbyid/{customerId}/orders")]
+        [Route("getbyid/{customerId}/orders")]
         public IEnumerable<ListCustomerOrderQueryResult> GetCustomerOrders(Guid customerId)
         {
             return _customerRepository.GetCustomerOrder(customerId);
         }
 
         [HttpPost]
-        [Route("v1/")]
+        [Route("")]
         public IActionResult SaveCustomer([FromBody] CreateCustomerCommand command)
         {
             var result = (CreateCustomerCommandResult)_handler.Handle(command);
@@ -55,7 +57,7 @@ namespace WillStore.Api.Controllers
             return Ok(result);
         }
         [HttpPut]
-        [Route("v1/{id}")]
+        [Route("{id}")]
         public IActionResult EditCustomer([FromBody] EditCustomerCommand command)
         {
             var result = (EditCustomerCommand)_handler.Handle(command);
@@ -64,7 +66,7 @@ namespace WillStore.Api.Controllers
             return Ok(result);
         }
         [HttpDelete]
-        [Route("v1/{customerId}")]
+        [Route("{customerId}")]
         public IActionResult DeleteCustomer(DeleteCustomerCommand customerId)
         {
             var result = (DeleteCustomerCommandResult)_handler.Handle(customerId);
