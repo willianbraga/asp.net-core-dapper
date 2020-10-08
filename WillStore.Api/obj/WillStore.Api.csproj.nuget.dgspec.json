@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\Developer\\Projects\\Study\\Asp.net core e dapper\\WillStore\\WillStore.Api\\WillStore.Api.csproj": {}
+    "D:\\Developer\\Projects\\Study\\Asp.net core e dapper\\WillStore\\WillStore.Api\\WillStore.Api.csproj": {}
   },
   "projects": {
-    "d:\\Developer\\Projects\\Study\\Asp.net core e dapper\\WillStore\\WillStore.Api\\WillStore.Api.csproj": {
+    "D:\\Developer\\Projects\\Study\\Asp.net core e dapper\\WillStore\\WillStore.Api\\WillStore.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Developer\\Projects\\Study\\Asp.net core e dapper\\WillStore\\WillStore.Api\\WillStore.Api.csproj",
+        "projectUniqueName": "D:\\Developer\\Projects\\Study\\Asp.net core e dapper\\WillStore\\WillStore.Api\\WillStore.Api.csproj",
         "projectName": "WillStore.Api",
-        "projectPath": "d:\\Developer\\Projects\\Study\\Asp.net core e dapper\\WillStore\\WillStore.Api\\WillStore.Api.csproj",
+        "projectPath": "D:\\Developer\\Projects\\Study\\Asp.net core e dapper\\WillStore\\WillStore.Api\\WillStore.Api.csproj",
         "packagesPath": "C:\\Users\\Lolla\\.nuget\\packages\\",
-        "outputPath": "d:\\Developer\\Projects\\Study\\Asp.net core e dapper\\WillStore\\WillStore.Api\\obj\\",
+        "outputPath": "D:\\Developer\\Projects\\Study\\Asp.net core e dapper\\WillStore\\WillStore.Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Lolla\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -24,7 +24,14 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\Developer\\Projects\\Study\\Asp.net core e dapper\\WillStore\\WillStore.Domain\\WillStore.Domain.csproj": {
+                "projectPath": "D:\\Developer\\Projects\\Study\\Asp.net core e dapper\\WillStore\\WillStore.Domain\\WillStore.Domain.csproj"
+              },
+              "D:\\Developer\\Projects\\Study\\Asp.net core e dapper\\WillStore\\WillStore.Infra\\WillStore.Infra.csproj": {
+                "projectPath": "D:\\Developer\\Projects\\Study\\Asp.net core e dapper\\WillStore\\WillStore.Infra\\WillStore.Infra.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -35,6 +42,16 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            },
+            "Swashbuckle.AspNetCore.Swagger": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -53,6 +70,192 @@
               "privateAssets": "all"
             }
           },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Developer\\Projects\\Study\\Asp.net core e dapper\\WillStore\\WillStore.Domain\\WillStore.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Developer\\Projects\\Study\\Asp.net core e dapper\\WillStore\\WillStore.Domain\\WillStore.Domain.csproj",
+        "projectName": "WillStore.Domain",
+        "projectPath": "D:\\Developer\\Projects\\Study\\Asp.net core e dapper\\WillStore\\WillStore.Domain\\WillStore.Domain.csproj",
+        "packagesPath": "C:\\Users\\Lolla\\.nuget\\packages\\",
+        "outputPath": "D:\\Developer\\Projects\\Study\\Asp.net core e dapper\\WillStore\\WillStore.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Lolla\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "D:\\Developer\\Projects\\Study\\Asp.net core e dapper\\WillStore\\WillStore.Shared\\WillStore.Shared.csproj": {
+                "projectPath": "D:\\Developer\\Projects\\Study\\Asp.net core e dapper\\WillStore\\WillStore.Shared\\WillStore.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "FluentValidator": {
+              "target": "Package",
+              "version": "[2.0.4, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Developer\\Projects\\Study\\Asp.net core e dapper\\WillStore\\WillStore.Infra\\WillStore.Infra.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Developer\\Projects\\Study\\Asp.net core e dapper\\WillStore\\WillStore.Infra\\WillStore.Infra.csproj",
+        "projectName": "WillStore.Infra",
+        "projectPath": "D:\\Developer\\Projects\\Study\\Asp.net core e dapper\\WillStore\\WillStore.Infra\\WillStore.Infra.csproj",
+        "packagesPath": "C:\\Users\\Lolla\\.nuget\\packages\\",
+        "outputPath": "D:\\Developer\\Projects\\Study\\Asp.net core e dapper\\WillStore\\WillStore.Infra\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Lolla\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "D:\\Developer\\Projects\\Study\\Asp.net core e dapper\\WillStore\\WillStore.Domain\\WillStore.Domain.csproj": {
+                "projectPath": "D:\\Developer\\Projects\\Study\\Asp.net core e dapper\\WillStore\\WillStore.Domain\\WillStore.Domain.csproj"
+              },
+              "D:\\Developer\\Projects\\Study\\Asp.net core e dapper\\WillStore\\WillStore.Shared\\WillStore.Shared.csproj": {
+                "projectPath": "D:\\Developer\\Projects\\Study\\Asp.net core e dapper\\WillStore\\WillStore.Shared\\WillStore.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.35, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Developer\\Projects\\Study\\Asp.net core e dapper\\WillStore\\WillStore.Shared\\WillStore.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Developer\\Projects\\Study\\Asp.net core e dapper\\WillStore\\WillStore.Shared\\WillStore.Shared.csproj",
+        "projectName": "WillStore.Shared",
+        "projectPath": "D:\\Developer\\Projects\\Study\\Asp.net core e dapper\\WillStore\\WillStore.Shared\\WillStore.Shared.csproj",
+        "packagesPath": "C:\\Users\\Lolla\\.nuget\\packages\\",
+        "outputPath": "D:\\Developer\\Projects\\Study\\Asp.net core e dapper\\WillStore\\WillStore.Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Lolla\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "FluentValidator": {
+              "target": "Package",
+              "version": "[2.0.4, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }

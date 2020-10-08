@@ -1,7 +1,10 @@
+using System;
+using System.Collections.Generic;
 using System.Data;
 using System.Linq;
 using Dapper;
 using WillStore.Domain.StoreContext.Entities;
+using WillStore.Domain.StoreContext.Queries;
 using WillStore.Domain.StoreContext.Repositories;
 using WillStore.Infra.StoreContext.DataContexts;
 
@@ -37,6 +40,32 @@ namespace WillStore.Infra.StoreContext.Repositories
                         .FirstOrDefault();
         }
 
+        public GetCustomerQueryResult GetCustomerById(Guid customerId)
+        {
+            return _context
+                        .Connection
+                        .Query<GetCustomerQueryResult>(
+                            "SELECT [Id], CONCAT([FirstName], ' ', [LastName]) AS [Name], [Document], [Email], [Phone] FROM [Customer] WHERE [Id] = @id"
+                            , new { id = customerId })
+                        .FirstOrDefault();
+        }
+
+        public IEnumerable<ListCustomerQueryResult> GetCustomerList()
+        {
+            return _context
+                        .Connection
+                        .Query<ListCustomerQueryResult>(
+                            "SELECT [Id], CONCAT([FirstName], ' ', [LastName]) AS [Name], [Document], [Email], [Phone] FROM [Customer]");
+        }
+
+        public IEnumerable<ListCustomerOrderQueryResult> GetCustomerOrder(Guid customerId)
+        {
+            return _context
+                        .Connection
+                        .Query<ListCustomerOrderQueryResult>(
+                            "", new { id = customerId });
+        }
+
         public void Save(Customer customer)
         {
             _context.Connection.Execute("spCreateCustomer",
@@ -67,6 +96,28 @@ namespace WillStore.Infra.StoreContext.Repositories
                         Type = address.Type
                     }, commandType: CommandType.StoredProcedure);
             }
+        }
+        public void Edit(Customer customer)
+        {
+            _context.Connection.Execute("spUpdateCustomer",
+                new
+                {
+                    Id = customer.Id,
+                    FirstName = customer.Name.FirstName,
+                    LastName = customer.Name.LastName,
+                    Document = customer.Document,
+                    Email = customer.Email.Address,
+                    Phone = customer.Phone
+                }, commandType: CommandType.StoredProcedure);
+        }
+
+        public void Delete(Guid customerId)
+        {
+            _context.Connection.Execute("spDeleteCustomer",
+                new
+                {
+                    Id = customerId
+                });
         }
     }
 }
