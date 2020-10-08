@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc;
 using WillStore.Domain.StoreContext.Commands.CustomerCommands.Inputs;
 using WillStore.Domain.StoreContext.Commands.CustomerCommands.Outputs;
-using WillStore.Domain.StoreContext.Entities;
 using WillStore.Domain.StoreContext.Handlers;
 using WillStore.Domain.StoreContext.Queries;
 using WillStore.Domain.StoreContext.Repositories;
@@ -28,6 +27,7 @@ namespace WillStore.Api.Controllers
 
         [HttpGet]
         [Route("getall")]
+        [ResponseCache(Location = ResponseCacheLocation.Client, Duration = 60)]
         public IEnumerable<ListCustomerQueryResult> GetAll()
         {
             return _customerRepository.GetCustomerList();
@@ -36,6 +36,13 @@ namespace WillStore.Api.Controllers
         [HttpGet]
         [Route("getbyid/{customerId}")]
         public GetCustomerQueryResult GetById(Guid customerId)
+        {
+            return _customerRepository.GetCustomerById(customerId);
+        }
+
+        [HttpGet]
+        [Route("getbyid/{customerId}")]
+        public GetCustomerQueryResult GetCustomerById(Guid customerId)
         {
             return _customerRepository.GetCustomerById(customerId);
         }

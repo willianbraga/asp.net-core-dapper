@@ -1,12 +1,5 @@
 using System;
-using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc;
-using WillStore.Domain.StoreContext.Commands.CustomerCommands.Inputs;
-using WillStore.Domain.StoreContext.Commands.CustomerCommands.Outputs;
-using WillStore.Domain.StoreContext.Entities;
-using WillStore.Domain.StoreContext.Handlers;
-using WillStore.Domain.StoreContext.Queries;
-using WillStore.Domain.StoreContext.Repositories;
 
 namespace WillStore.Api.Controllers
 {
@@ -16,7 +9,12 @@ namespace WillStore.Api.Controllers
     [ApiExplorerSettings(GroupName = "v2")]
     public class OrderController : ControllerBase
     {
-
+        [HttpGet]
+        [Route("getbyid/{customerCPF}")]
+        public IActionResult GetCustomerById(Guid customerId)
+        {
+            return Ok();
+        }
         public OrderController()
         { }
 

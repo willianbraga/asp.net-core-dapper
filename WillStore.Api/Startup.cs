@@ -46,6 +46,7 @@ namespace WillStore.Api
         {
             services.AddControllers();
 
+            services.AddResponseCompression();
 
             services.AddScoped<WillDataContext, WillDataContext>();
             services.AddTransient<ICustomerRepository, CustomerRepository>();
@@ -87,6 +88,8 @@ namespace WillStore.Api
             {
                 endpoints.MapControllers();
             });
+
+            app.UseResponseCompression();
         }
         private void AddSwagger(IServiceCollection services)
         {
